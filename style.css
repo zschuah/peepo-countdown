@@ -1,0 +1,36 @@
+body {
+  background-color: #80ffdb;
+}
+.card {
+  background-color: #64dfdf;
+}
+.card-header,
+.input-group-text,
+.my-footer,
+#congratulations {
+  background-color: #5e60ce;
+  color: white;
+}
+
+#throw-letter-formatted {
+  font-size: 4rem;
+}
+
+/* Mobile */
+@media (max-width: 575px) {
+  .display-1 {
+    font-size: 2.2rem;
+    margin-top: 1rem;
+  }
+  #throw-letter-formatted {
+    font-size: 2rem;
+  }
+}
+
+/* Tablet */
+@media (max-width: 991px) and (min-width: 576px) {
+  .display-1 {
+    font-size: 4rem;
+    margin-top: 1rem;
+  }
+}
