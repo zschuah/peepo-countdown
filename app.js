@@ -64,7 +64,7 @@ const app = Vue.createApp({
       return this.hoursLeft / 24;
     },
     daysLeftFormatted() {
-      return Math.round(this.daysLeft).toLocaleString();
+      return Math.round(this.daysLeft * 10) / 10;
     },
     weeksLeft() {
       return this.daysLeft / 7;
